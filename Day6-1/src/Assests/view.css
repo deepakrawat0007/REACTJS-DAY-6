@@ -1,0 +1,20 @@
+body{
+    background-color: aliceblue;
+}
+.main-card{
+    margin-top: 2%;
+    margin-left: 25%;
+
+}
+.thumbs, .animated{
+margin-left: -37%;
+}
+.carousel, .carousel-slider{
+    height: 70%;
+    border-radius: 15px;
+
+}
+
+.carousel-slider{
+    box-shadow: 0 10px 10px 10px;
+}

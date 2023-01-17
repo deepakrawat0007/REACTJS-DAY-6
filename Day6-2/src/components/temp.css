@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.wrapper{
+    border: 1px solid gray;
+    margin-top: 5%;
+    width: 40vw;
+    height: 80vh;
+    border-radius: 20px;
+    background-color: darkcyan;
+    box-shadow: 0 10px 10px 10px darkgray;
+}
+
+.display{
+    width: 20vw;
+    border: 3px solid whitesmoke;
+    height: 19vw;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 100%;
+
+}
+.display > h1{
+    margin-top: 27%;
+    color: whitesmoke;
+    font-size: 70px;
+}
+.btns > button{
+    margin-top: 10%;
+    width: 8vw;
+    height:15vh;
+    margin-left: 25px;
+    border: 0;
+    border: 2px solid whitesmoke;
+    border-radius: 100%;
+    outline-style: none;
+    background-color: gray;
+    font-size: 60px;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: lightgrey;
+    color: gray;
+    cursor: pointer;
+    
+}
